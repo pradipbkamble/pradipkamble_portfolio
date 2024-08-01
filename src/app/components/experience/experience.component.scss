@@ -1,0 +1,52 @@
+
+.work .exp header.title{
+    color: red;
+    padding : 0px 0px 10px 30px;
+}
+// .work .col .contents{
+//     padding : 0px 30px;
+//     border-left: 2px solid pink;
+// }
+.work .exp .box{
+    position: relative;
+    padding: 20px;
+    border: 1px solid pink;
+    background-color: wheat;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.work .exp .box:hover{
+    box-shadow: 0px 3px 12px 0px red;
+    border: 1px solid transparent;
+}
+
+// .work .col .box::before{
+//     content : ' ';
+//     position: absolute;
+//     width : 19px;
+//     height: 19px;
+//     border-radius: 50%;
+//     top : 0;
+//     background-color: pink;
+//     border: 2px solid green;
+// }
+
+.box ul{
+    list-style-type: disc;
+    padding-left: 20px; 
+}
+.box h4{
+    position: relative;
+    color :rgb(68, 42, 114);
+}
+.box h3{
+    font-size: 19px;
+    font-weight: bold;
+    padding : 10px 0px 6px;
+}
+.box p{
+    line-height: 1.2;
+    font-size: 17px;
+    color: gray;
+}
