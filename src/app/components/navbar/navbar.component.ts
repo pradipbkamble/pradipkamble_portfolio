@@ -41,8 +41,8 @@ this.component=false
 
   ondownlod(){
     const link=document.createElement("a")
-    link.href="../images/resume.pdf";
-    link.download='resume.pdf'
+    // link.href="../images/resume.pdf";
+    // link.download='resume.pdf'
     link.click()
   }
   
