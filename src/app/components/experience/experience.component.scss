@@ -1,5 +1,5 @@
 
-.work .exp header.title{
+.title{
     color: red;
     padding : 0px 0px 10px 30px;
 }
@@ -7,7 +7,7 @@
 //     padding : 0px 30px;
 //     border-left: 2px solid pink;
 // }
-.work .exp .box{
+.box{
     position: relative;
     padding: 20px;
     border: 1px solid pink;
@@ -16,7 +16,7 @@
     transition: all 0.4s;
     margin-bottom: 20px;
 }
-.work .exp .box:hover{
+.box:hover{
     box-shadow: 0px 3px 12px 0px red;
     border: 1px solid transparent;
 }
