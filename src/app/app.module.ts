@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
-import { HeaderComponent } from './components/header/header.component';
+
 import { SkillsComponent } from './components/skills/skills.component';
 
 import { ProjectComponent } from './components/project/project.component';
@@ -39,7 +39,7 @@ let modularr=[MatToolbarModule,MatIconModule,MatButtonModule,
   declarations: [
     AppComponent,
     AboutComponent,
-    HeaderComponent,
+    
     SkillsComponent,
    
     ProjectComponent,
