@@ -10,17 +10,20 @@
 .box{
     position: relative;
     padding: 20px;
-    border: 1px solid pink;
-    background-color: wheat;
+    border: 1px solid rgb(248, 235, 237);
+    background-color: rgb(248, 235, 237);
     cursor: pointer;
     transition: all 0.4s;
     margin-bottom: 20px;
 }
 .box:hover{
-    box-shadow: 0px 3px 12px 0px red;
+    box-shadow: 0px 3px 12px 0px rgb(0, 166, 255);
     border: 1px solid transparent;
 }
-
+.angu{
+    background-color: rgb(17, 40, 74);
+    color: azure;
+}
 // .work .col .box::before{
 //     content : ' ';
 //     position: absolute;
