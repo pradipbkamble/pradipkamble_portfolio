@@ -15,6 +15,7 @@ body{
 .navbar-expand-lg .navbar-nav .nav-link.show,
 .navbar-expand-lg .navbar-nav .show>.nav-link{
     color: rgb(28, 150, 226);
+   
   
 }
 .nav-link{
@@ -25,25 +26,25 @@ body{
 #toolbaar{
     color:pink;
 }
-.img1{
+// .img1{
+// //     background-attachment: fixed;
+// // object-fit: cover;
+
+// // background-repeat: no-repeat;
+// // display: flex;
+// // justify-content: center;
+
+// //     width: 100%;
+// //     height: 100%;
+//     display: flex;
+//     height: 100vh;
+//     background-size: cover;
 //     background-attachment: fixed;
-// object-fit: cover;
-
-// background-repeat: no-repeat;
-// display: flex;
-// justify-content: center;
-
-//     width: 100%;
-//     height: 100%;
-    display: flex;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    min-height: 500px;
-    font-family: "Ubuntu", sans-serif;
-   background-image: url(../images/bannernew.jpg);
-}
+//     color: white;
+//     min-height: 500px;
+//     font-family: "Ubuntu", sans-serif;
+//    background-image: url(assets/images/profile.jpg);
+// }
 .logo{
     font-size: 40px;
     font-weight: 800;
