@@ -58,23 +58,24 @@
 
                 </div>
                 <mat-card-content>
-                    <form [formGroup]="contsctform" (ngSubmit)="onsubmitform()">
+                    <form action="https://formspree.io/f/mrbzkqgn"
+                    method="POST" [formGroup]="contsctform" (ngSubmit)="onsubmitform()">
 
                         <div class="form-group">
 
-                            <input type="text" class="form-control" placeholder="Full Name" formControlName="Fname">
+                            <input type="text" class="form-control" name="Fname" placeholder="Full Name" formControlName="Fname">
                         </div>
                         <div class="form-group">
 
-                            <input type="text" class="form-control" placeholder="Email Id" formControlName="Gmail">
+                            <input type="text" class="form-control" name="Gmail" placeholder="Email Id" formControlName="Gmail">
                         </div>
                         <div class="form-group">
 
-                            <textarea rows="5" class="form-control" placeholder="Message"></textarea>
+                            <textarea rows="5" class="form-control" name="Message" placeholder="Message" formControlName="Message"></textarea>
                         </div>
 
                         <mat-card-footer class="m-2 text-center">
-                            <button mat-raised-button color="primary">Submit</button>
+                            <button mat-raised-button color="primary" type="submit">Submit</button>
                         </mat-card-footer>
                     </form>
                 </mat-card-content>
