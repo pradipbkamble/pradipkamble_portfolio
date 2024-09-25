@@ -17,7 +17,7 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   
-    let neviget=document.getElementById("navbarNav")
+    
    
    let nav=document.querySelector("nav");
    
